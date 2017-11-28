@@ -62,7 +62,7 @@ dave = rg.SimpleTurtle()
 # ----------------------------------------------------------------------
 dave.forward(100)
 dave.left(90)
-dave.forward(200)
+dave.forward(190)
 
 # ----------------------------------------------------------------------
 # Construct a new turtle and ask it to do things.
