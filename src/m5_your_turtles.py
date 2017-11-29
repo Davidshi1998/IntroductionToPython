@@ -5,12 +5,12 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
          their colleagues and David Shi.
 """
 ########################################################################
-# TODO: 1.
+# DONE: 1.
 # On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #
 #  You should have RUN the PREVIOUS module and READ its code.
 #  (Do so now if you have not already done so.)
@@ -28,3 +28,22 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #  Don't forget to COMMIT your work by using  VCS ~ Commit and Push.
 ########################################################################
+import rosegraphics as rg
+
+window = rg.TurtleWindow
+
+David_turtle=rg.SimpleTurtle()
+
+Josh_turtle = rg.SimpleTurtle()
+
+Josh_turtle.pen = rg.Pen("blue",3)
+
+David_turtle.pen = rg.Pen("green",3)
+for k in range(5):
+    David_turtle.forward(100)
+    David_turtle.right(30)
+for k in range(10):
+    Josh_turtle.backward(100)
+    Josh_turtle.right(10)
+
+
